@@ -1,0 +1,25 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: RGB(47, 105, 168);
+    color: #fff;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.menu:hover {
+    color: red;
+}
+
+.fotoCores {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
