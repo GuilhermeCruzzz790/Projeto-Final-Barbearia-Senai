@@ -4,7 +4,7 @@ section {
     background-repeat: no-repeat;
 }
 
-.animacao-de-palavra:hover:hover {
+.animacao-de-palavra:hover {
     color: rgb(255, 50, 45);
 }
 
@@ -70,6 +70,13 @@ nav a {
     display: flex;
     flex-direction: column;
     font-family: "Poppins", sans-serif;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
 }
 
 .card-img {
@@ -159,4 +166,16 @@ button {
 
 button:hover {
     background-color: rgb(44, 105, 168);
+}
+
+#end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(44, 105, 168);
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    gap: 100px;
 }
