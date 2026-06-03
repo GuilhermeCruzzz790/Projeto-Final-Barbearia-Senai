@@ -20,7 +20,7 @@
         <nav class="menu">
             <a class="animacao-de-palavra">Home</a>
             <a class="animacao-de-palavra">Produtos</a>
-            <a href="#sobre" class="animacao-de-palavra">Sobre</a>
+            <a href="./sobre.html" class="animacao-de-palavra" id="sobre">Sobre</a>
             <a class="animacao-de-palavra">Contato</a>
         </nav>
     </header>
@@ -43,7 +43,17 @@
                 <p class="card-text"><strong>Os mais variados tipos de cortes!</strong></p>
             </div>
         </div>
-
+        
+        <div class="card">
+            <div class="card-img">
+                <img src="https://images.pexels.com/photos/7447130/pexels-photo-7447130.jpeg" alt="Produtos">
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Produtos</h3>
+                <p class="card-text"><strong>Para cabelos de todos os tipos!</strong></p>
+            </div>
+        </div>
+        
         <div class="card">
             <div class="card-img">
                 <img src="https://images.pexels.com/photos/6007395/pexels-photo-6007395.jpeg" alt="Barba">
@@ -54,15 +64,6 @@
             </div>
         </div>
 
-        <div class="card">
-            <div class="card-img">
-                <img src="https://images.pexels.com/photos/7447130/pexels-photo-7447130.jpeg" alt="Produtos">
-            </div>
-            <div class="card-body">
-                <h3 class="card-title">Produtos</h3>
-                <p class="card-text"><strong>Para cabelos de todos os tipos!</strong></p>
-            </div>
-        </div>
     </div>
 
     <div id="contato">
@@ -75,29 +76,29 @@
         <form id="form">
 
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" required>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
 
             <label for="email">Email:</label>
-            <input type="email" id="Email" required>
+            <input type="email" id="Email" placeholder="Digite seu email" required>
 
             <label for="telefone">Telefone:</label>
-            <input type="number" id="Telefone" required>
+            <input type="number" id="Telefone" placeholder="Digite seu telefone" required>
 
             <label for="duvidas">Dúvidas:</label>
-            <input type="text" id="duvidas">
+            <input type="text" id="duvidas" placeholder="Digite suas dúvidas">
 
-            <button type="submit">Enviar</button>
+            <button type="submit" id="button">Enviar</button>
 
         </form>
 
     </section>
-
-      <div id="end">
+    <div id="end">
         <p>Curso JavaScript</p>
         <img src="./Imagens/SENAI_São_Paulo_logo.png" alt="logoSenai" width="200px">
-       </div>
+    </div>
 
-
+    <script src="script.js"></script>
+    
 </body>
 
 </html>
