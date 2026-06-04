@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Moderna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="logo">
+            <img src="Imagens/icone_barbearia.png" width="50px">
+            <a class="animacao-de-palavra">404 Barber Not Found</a>
+        </div>
+
+        <nav class="menu">
+            <a href="index.html" class="animacao-de-palavra">Home</a>
+            <a href="produtos.html" class="animacao-de-palavra">Produtos</a>
+            <a href="./sobre.html" class="animacao-de-palavra" id="sobre">Sobre</a>
+            <a href="cortes.html" class="animacao-de-palavra">Cortes</a>
+            <a href="Serviços.html" class="animacao-de-palavra">Serviços</a>
+        </nav>
+    </header>
+
+    <div id="container">
+        <img src="Imagens/cores_barbearia.jpg" id="fotoCores">
+    </div>
+
+    <div id="blog">
+        <h1 class="animacao-de-palavra">Outros Serviços</h1>
+    </div>
+
+    <div class="grid">
+        <div class="card">
+            <div class="card-img">
+                <img src="https://depils.com.br/wp-content/uploads/2024/10/Sobrancelha-Henna-Masculina-Depils-Exclusive.png" alt="Sobrancelhas">
+            </div>
+            <div class="card-body">
+             <h3 class="card-title">Sobrancelhas</h3>
+                <p class="card-text"><strong>Modelagem e acabamento das sobrancelhas para um aspecto limpo!</strong></p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJWhmHkQz8agIkn18b5sQXvFB9SysY0Jn0Ew&s" alt="Barbas">
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Barbas</h3>
+                <p class="card-text"><strong>Renove seu visual com um serviço de barba feito sob medida !</strong></p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-img">
+                <img src="data:image/jpeg;base64,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" alt="Massagem">
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Massagem</h3>
+                <p class="card-text"><strong>Os mais variados tipos, para o seu relaxamento!</strong></p>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+  
+    <div id="end">
+        <p>Curso JavaScript</p>
+        <img src="./Imagens/SENAI_São_Paulo_logo.png" alt="logoSenai" width="200px">
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
