@@ -37,6 +37,13 @@ nav a {
     height: 300px;
 }
 
+#foto-produtos {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
 #blog {
     display: flex;
     justify-content: center;
@@ -110,7 +117,7 @@ nav a {
 
 .card-text {
     padding: 15px;
-    font-size: 14px;
+    font-size: 20px;
     color: rgb(44, 105, 168);
 }
 
